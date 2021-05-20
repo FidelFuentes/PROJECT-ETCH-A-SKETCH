@@ -1,0 +1,17 @@
+#conteiner{
+    display: grid;
+    grid-template-columns: repeat( 16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+
+#conteiner div { 
+    
+    background: yellow;
+    gap: 10px;
+}
+
+#conteiner div:hover{
+    border: 1px solid black;
+    
+}
